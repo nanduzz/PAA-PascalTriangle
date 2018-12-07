@@ -46,7 +46,7 @@ public class PAA2{
         //exibe matriz resultado
         for (int l = 0; l < pascal.length; l++) {
             for (int c = 0; c < pascal.length; c++) {
-                System.out.print(Util.leftPadWithSpaces(String.valueOf(pascal[l][c]), pad + 1));
+                System.out.print(PAA2.leftPadWithSpaces(String.valueOf(pascal[l][c]), pad + 1));
             }
 
             //pula linha
